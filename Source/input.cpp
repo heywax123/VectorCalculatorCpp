@@ -6,6 +6,10 @@
 #include "input.h"
 #define PI 3.14159265359
 
+
+// All user errorInput functions were used from
+// http://www.cs.technion.ac.il/users/yechiel/c++-faq/istream-and-ignore.html
+
 void errorInputA() {
 
 	if (!std::cin) // or if(cin.fail())
